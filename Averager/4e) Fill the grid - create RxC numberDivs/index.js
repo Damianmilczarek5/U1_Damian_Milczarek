@@ -8,15 +8,13 @@ function gridMaker(gridContainer, R, C) {
 for (let i = 0; i < nTotal; i++) {
   gridContainer.appendChild(createNumberDiv());
   /*
-    for (let i=0; i < R; R++) {
-    for (let j=0; j < C; C++)
+    for (let i=0; i < C; C++) {
+    for (let j=0; j < R; R++)
     gridContainer.appendChild( createNumberDiv() );
     }
   */  // 
 }
 }
-
-gridMaker(document.querySelector("#grid"), 10, 15);
 
 function createNumberDiv() {
   let numberDiv = document.createElement("div");

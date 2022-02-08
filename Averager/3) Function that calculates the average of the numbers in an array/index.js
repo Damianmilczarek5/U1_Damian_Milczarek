@@ -45,7 +45,7 @@ VIDEO:  Record a video where you explain how averg works line by line. Max 3 min
 */
 
 // Copy your earlier function here
-function adder_three ( _array ) {
+function adder ( _array ) {
   let sum = 0;
   for ( let i = 0; i < _array.length; i++ ) { 
     sum = sum + _array[i];
@@ -54,11 +54,13 @@ function adder_three ( _array ) {
 }
 
 function averg ( _array ) {
-return adder_three( _array) / _array.length ; // jag skapar funktionen averg med parametern array och  sedan returnerar jag delar det på array.lenght 
+return adder( _array) / _array.length ; 
 }
 
 console.log(averg([5, 6, 7, 2, 5]));
 
 console.log(averg([5, 5, 2]));
+
+
 
 

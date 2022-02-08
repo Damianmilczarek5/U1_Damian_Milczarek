@@ -1,0 +1,70 @@
+
+body {
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+  }
+  
+  body, input, button {
+    font: 20px "Roboto Condensed";
+  }
+  
+  #top > div {
+    display: flex;
+    flex-basis: 6vh;
+    margin: 2vh;
+    justify-content: center;
+  }
+  
+  #top > div > div {
+    margin: 0px 2vh;
+  }
+  
+  #results span {
+    font-weight: bolder;
+  
+  }
+  
+  #selected #amount #sum #average {
+      color: rgb(69, 41, 105);
+  }
+  
+  #grid {
+    margin: 2vh;
+    padding: 1vh;
+    flex-grow: 1;
+    display: grid;
+    gap: 1vh;
+    border: 1px solid grey;
+  
+    font: 25px "Supermercado One";
+  }
+  
+  #grid > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    background-color: rgb(69, 41, 105);
+  }
+  
+  #grid > div.selected {
+      transition: 0.5s;
+      border-radius: 40px;
+    color: rgb(206, 219, 17);
+  
+    background-image: url(./fatdog-dog.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  #grid > div:hover {
+      transition: 0.5s;
+  border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px black;
+  }
+  
+  
