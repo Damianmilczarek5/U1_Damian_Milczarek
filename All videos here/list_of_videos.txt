@@ -1,0 +1,25 @@
+List of videos that you must include in this folder:
+
+
+Averager (Exercise 2)
+Name of the video: adderExplanation
+
+
+Averager (Exercise 3)
+Name of the video: avergExplanation
+
+
+Averager (Exercise 4d->2 )
+Name of the video: loopExplainer
+
+
+Averager (Exercise 7 -> join)
+Name of the video: joinExplainer
+
+
+Averager (Exercise 8 -> join)
+Name of the video: placementExplanation
+
+
+FlowChart
+Name of the video: flowCharExplanation
