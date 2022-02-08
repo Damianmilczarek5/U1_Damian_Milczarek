@@ -1,7 +1,7 @@
 "use strict";
 
 // Include the link to your Github Repository here:
-// Link:
+// Link: https://github.com/Damianmilczarek5/U1_Damian_Milczarek.git
 
 function adder(_array) {
   let sum = 0;
